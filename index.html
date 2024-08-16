@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><i>SanahHeardle</i></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="bioModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sanah - Krótka Biografia</h2>
+            <img src="sanah.jpg" alt="Sanah" class="bio-image">
+            <p>Sanah, czyli Zuzanna Jurczak, jest jedną z najpopularniejszych polskich piosenkarek młodego pokolenia. Jej charakterystyczny styl muzyczny łączy pop z elementami indie i alternative, a teksty piosenek poruszają emocjonalne tematy.</p>
+            <p>Sanah zdobyła popularność dzięki hitom takim jak "Szampan", "Melodia" i "Królowa dram". Wyróżnia się także swoją oryginalną osobowością i unikalnym stylem artystycznym.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>SanahHeardle</h1>
+        <button id="playBtn">🎵 Odtwórz fragment 🎵</button>
+        <select id="songSelect">
+            <option value="" disabled selected>Wybierz tytuł piosenki</option>
+        </select>
+        <button id="submitBtn">Zgłoś odpowiedź</button>
+        <p id="result"></p>
+        <button id="resetBtn" style="display:none;">Zagraj jeszcze raz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
